@@ -1,5 +1,5 @@
 # sample-location-webmap Project
-Create a leaflet based webmap showing stormwater sample locations for a given year
+R script to create a leaflet webmap showing stormwater sample locations for a given year
 
 This project involves downloading stormwater data from the Intellus New Mexico publicly-accessible database of environmental monitoring data provided by the Los Alamos National Laboratory (LANL) and the New Mexico Environment Department DOE Oversight Bureau (NMED DOE OB). All data contained in this system are unclassified.
 
