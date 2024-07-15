@@ -15,7 +15,6 @@ library(jsonlite)
 library(httr)
 library(tidyverse)
 library(janitor)
-library(lubridate)
 
 # Input data downloaded from Intellus New Mexico (https://www.intellusnm.com/index.cfm)
 gagedat <- 'Data/Intellus_2023_WT_All.csv'
