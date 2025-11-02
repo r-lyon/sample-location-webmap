@@ -12,8 +12,8 @@ data/processed/
 
 # Output and build files
 outputs/
-*.html
-*.png
+# *.html
+# *.png
 *.pdf
 
 # OS junk
