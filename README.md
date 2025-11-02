@@ -1,13 +1,10 @@
 # Sample Location Webmap
-R script to create an interactive Leaflet webmap of environmental sampling locations by year
-
-This project uses stormwater data from the Intellus New Mexico publicly-accessible database of environmental monitoring data provided by the Los Alamos National Laboratory (LANL) and the New Mexico Environment Department DOE Oversight Bureau (NMED DOE OB). All data contained in this system are unclassified.
+R script to create an interactive Leaflet webmap of environmental stormwater sampling locations by program and by year. Data is publicly available on the Intellus New Mexico website (https://www.intellusnm.com/index.cfm). All data are unclassified.
 
 ---
 
 ## Overview
-This project builds an interactive webmap using R and `leaflet`.  
-It reads Intellus 2024 sample location data, converts it to `sf`, and creates a web-based visualization with popups showing site details.
+This project builds an interactive webmap using R and `leaflet`.  It reads Intellus 2023 stormwater sample location data, converts it to `sf`, and creates a web-based visualization with popups showing site details.
 
 ---
 
@@ -21,13 +18,11 @@ It reads Intellus 2024 sample location data, converts it to `sf`, and creates a 
 ---
 
 ## Key Script
-
 [**sampled_locations_Intellus_2024.R**](https://github.com/r-lyon/sample-location-webmap/blob/main/scripts/sampled_locations_Intellus_2024.R)
 
 ---
 
 ## Example Output
-*(add a screenshot or thumbnail image of your map here)*  
 ![Sample Location Map Screenshot](output/figures/sample_map_preview.png)
 
 ---
